@@ -1,0 +1,10 @@
+div.share
+  div.title Share your secret...
+  div.listening
+
+  input(style="display:none", type="text", name="my_secret", class="my_secret")
+
+div.secrets
+  - each secret in secrets
+    div.secret
+      = secret.body
