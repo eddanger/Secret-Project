@@ -1,0 +1,10 @@
+{
+  "name":"secret_project",
+  "version":"0.0.42",
+  "dependencies":{
+    "express":"2.0.0beta2",
+    "jade":"0.8.3",
+    "socket.io":"0.6.16",
+    "mongoose":"1.1.3"
+  }
+}
